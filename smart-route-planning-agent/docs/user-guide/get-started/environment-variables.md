@@ -10,7 +10,7 @@ This section explains the environment variables used to configure the Smart Rout
 ## Core Configuration
 
 | Variable | Default | Description |
-|----------|---------|-------------|
+| ---------- | --------- | ------------- |
 | `HOST_IP` | Auto-detected | Host IP address for the application. Automatically detected from the network interface. Falls back to `127.0.0.1` if detection fails. |
 | `TAG` | `latest` | Docker image tag to use when building and running containers. |
 | `REGISTRY` | (empty) | Docker registry path for pulling or pushing images. |
